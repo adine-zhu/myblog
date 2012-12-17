@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Javascript_DOM编程艺术—笔记
-description: note
 keywords: Javascript
 category: IT
 tags: javascript DOM css HTML
+description: 学习的过程总是枯燥的，这本书还不错，浅显易懂<br/>一.语法：（语法的广义含义包括语句、单词、标点符号等各个方面，它的狭义含义则特指语句结构方面的各项规则.）<br/>1.语句：用Javascript或任何一种其他程序设计语言编写出来的脚本都是由一系列指令构成的，这些指令称为语句（statement）;
 ---
 
 
