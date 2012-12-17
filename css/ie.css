@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.abs-left{
+
+	*top:68px;
+
+}
+
+.abs-right{
+	*top:65px;
+}
+
+
+.head-bg{
+	 background: url("img/ie6.jpg") repeat-x;
+	width:100%;
+	height:64px;
+	line-height:64px;
+}
+
+.title{
+    background: url("img/title.jpg") repeat-x;
+    height: 48px;
+}
+
+ .date{
+     background:#fff url("img/title_bg.jpg") no-repeat;
+     height: 48px;
+     width: 68px;
+     text-align: center;
+     padding-left: 20px;
+     color: #fff;
+ }

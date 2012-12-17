@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { background:#fff; -webkit-text-size-adjust:none; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin:0; padding:0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+audio, canvas, video { display:inline-block; *display:inline; *zoom:1; }
+body, button, input, select, textarea { font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif; font-size:12px; line-height:1.5; }
+input, select, textarea, button { font-family:Arial, Helvetica, sans-serif; font-size:100%; line-height:1; }
+textarea { resize:none; overflow-y:auto; }
+img { border:0; vertical-align:middle; }
+iframe { display:block; }
+del { text-decoration:line-through; }
+ul { list-style:none; }
+ol { list-style-position:inside; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:500; }
+sub, sup { font-size:75%; line-height:0; position:relative; vertical-align:baseline; }
+sup { top:-0.5em; }
+sub { bottom:-0.25em; }
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+table { border-collapse: collapse; border-spacing: 0; }
+object, :focus { outline: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+/* Reset */
+
+* html .box { zoom:1; }
+*:first-child+html .box { zoom:1; }
+.clear { clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+*.fl, *.fr { display:inline; }
+.rel { position:relative; }
+.abs { position:absolute; }
+.tl { text-align:left; }
+.tr { text-align:right; }
+.tc { text-align:center; }
+.uc { text-transform:uppercase; }
+/* Base */
+
+
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    content: '\0020';
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+* html .clearfix {
+    display: inline-block;
+    height: 1%;
+} 

@@ -1,0 +1,8 @@
+<dl class=" article-list">
+   <dt class="article-title">标签</dt>
+   {% for tag in site.tags limit:10 %}
+   <dd>
+   <a href="#">{{ tag[0] }}</a>
+   {% endfor %}
+   </dd>
+</dl>

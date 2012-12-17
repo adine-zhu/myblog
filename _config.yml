@@ -1,0 +1,11 @@
+markdown: rdiscount
+pygments: true
+permalink: /:categories/:title
+title: adine blog
+safe: false
+url: http://zhujunfang.com/
+exclude: [README.md]
+author:
+    name: adine
+    email: saytea@gmail.com
+auto: true

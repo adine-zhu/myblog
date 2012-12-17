@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+	
+    <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/master.css" type="text/css" media="all" />
+
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" href="/css/ie.css" type="text/css" media="all" />
+    <![endif]-->    
+</head>
+<body>
+
+<div class="head-nav flower">
+    <div class="flower-width">
+        <span class="abs abs-left" ></span>
+        <span class="abs abs-right" ></span>
+    </div>
+</div>
+
+<div class="head-nav top-nav">
+    <div class="head-bg">
+        <div class="content clearfix">
+            <p class="fl logo">小芳.adine</p>
+            <div class="fr navbar">
+                <a href="/">博客首页</a>
+                <a href="#">技术笔记</a>
+                <a href="#">生活记录</a>
+                <a href="#">资源分享</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content main-container">
+    <div class="stage">
+    
+{{ content }}
+        
+
+    </div>
+    <div class="sidebar">
+    	<div class="wraper-avatar">
+        	<h1>angel</h1>
+            <p class="mood">心境真的会随时间而改变</p>
+            <img src="img/img.jpg" />
+        </div> 
+        
+           <div class="wraper-avatar tag">
+            {% include new_article.html %}
+           </div> 
+        
+        <div class="wraper-avatar tag clearfix">
+            {% include category.html %}
+        </div> 
+
+        <div class="wraper-avatar tag clearfix tag-one">
+            {% include tag.html %}
+        </div>   		
+           
+             
+        
+    </div>
+</div>
+
+<div class="wrap-bottom">
+	<p>Copyright ?1988-2012 Adine | Powered by Jekyll | Theme Design & Code By Adine | Last updated at {{ site.time | date: "%Y/%m/%d" }} &nbsp;&nbsp; <script src="http://s21.cnzz.com/stat.php?id=4835762&web_id=4835762&show=pic" language="JavaScript"></script></p>
+</div>
+
+</body>
+</html>

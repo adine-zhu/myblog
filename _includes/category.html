@@ -1,0 +1,8 @@
+<dl class=" article-list">
+<dt  class="article-title">分类</dt>
+{% for category in site.categories limit:10 %}
+    <dd>
+        <a href="#">{{ category[0] }}</a>
+    </dd>
+{% endfor %}
+</dl>
