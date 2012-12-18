@@ -1,4 +1,4 @@
-markdown: rdiscount
+#markdown: rdiscount
 pygments: true
 permalink: /:categories/:title
 title: adine blog
