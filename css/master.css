@@ -192,6 +192,10 @@ a.tag-link:hover{background:#f46666;}
 	font-weight:bold;		
 	}
 	
+.wraper-avatar h1 a{
+	color:#333333;
+}
+	
 h2{
 	font-size:16px;
 }	
