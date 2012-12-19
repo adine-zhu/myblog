@@ -192,6 +192,14 @@ a.tag-link:hover{background:#f46666;}
 	font-weight:bold;		
 	}
 	
+h1 a{
+	display:block;
+}	
+
+h1 a:hover{
+	background:#fff;
+}
+	
 h1 a, h2 a{
 	color:#333333;
 }
