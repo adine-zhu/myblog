@@ -192,6 +192,10 @@ a.tag-link:hover{background:#f46666;}
 	font-weight:bold;		
 	}
 	
+h2{
+	font-size:18px;
+}	
+	
 .mood{
 	line-height:40px;
 	color:#666;
