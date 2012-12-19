@@ -126,7 +126,8 @@ html{
 	color:#333333;
 	line-height:36px;
 	font-size:14px;
-	margin:20px 0 30px 100px;
+	margin:20px 0 30px 90px;
+	padding-left:10px;
 	}
 	
 .article{
