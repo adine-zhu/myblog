@@ -197,7 +197,8 @@ h1 a{
 }	
 
 h1 a:hover{
-	background:#fff;
+	background:#dc7676;
+	width:100%;
 }
 	
 h1 a, h2 a{
