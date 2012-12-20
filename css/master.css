@@ -256,7 +256,7 @@ h2{
 	z-index:4;	
 	}	
 	
-* wrap-bottom{
+* .wrap-bottom{
 	position:absolute;
 	bottom:0;
 	margin-top40px;
