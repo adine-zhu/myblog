@@ -188,10 +188,6 @@ a.tag-link:hover{background:#f46666;}
 	overflow:hidden;
 }
 
-*.sidebar{
-	position:relative;
-	float:right;
-}
 
 .wraper-avatar h1{
 	font-size:30px;
@@ -264,6 +260,7 @@ h2{
 * .wrap-bottom{
 	position:absolute;
 	bottom:0;
+	display:none;
 
 }	
 
